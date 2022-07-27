@@ -86,7 +86,7 @@ public class MainVerticle extends AbstractVerticle {
   private Future<Void> clientDB() {
     PgConnectOptions connectOptions = new PgConnectOptions()
       .setPort(5432)
-      .setHost("192.168.0.104")
+      .setHost("192.168.0.102")
       .setDatabase("chirpstack")
       .setUser("chirpstack_user")
       .setPassword("user3344");
